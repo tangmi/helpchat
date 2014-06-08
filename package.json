@@ -1,0 +1,34 @@
+{
+  "name": "helpchat",
+  "version": "0.0.0",
+  "description": "add a good ol' undocumented chat room to your express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tangmi/helpchat"
+  },
+  "keywords": [
+    "help",
+    "chat",
+    "support",
+    "undocumented",
+    "feature",
+    "xkcd"
+  ],
+  "author": "tangmi",
+  "license": "Artistic License 2.0",
+  "bugs": {
+    "url": "https://github.com/tangmi/helpchat/issues"
+  },
+  "homepage": "https://github.com/tangmi/helpchat",
+  "dependencies": {
+    "animal-id": "0.0.1",
+    "express-session": "^1.2.1",
+    "cookie-parser": "^1.1.0",
+    "ws": "^0.4.31",
+    "express": "^4.4.1"
+  }
+}
