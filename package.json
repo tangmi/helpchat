@@ -1,11 +1,10 @@
 {
   "name": "helpchat",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "add a good ol' undocumented chat room to your express app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postpublish": "./node_modules/.bin/srun --script=postpublish"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
