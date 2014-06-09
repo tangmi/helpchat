@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Help Chat</title>
+
+	<style>
+
+		body, html {
+			margin: 0;
+			width: 100%;
+			height: 100%;
+		}
+		#users h3 {
+			margin: 0;
+		}
+		#users, #input {
+			display: block;
+			position: fixed;
+		}
+
+		#users {
+			border-left: 1px solid gray;
+		}
+		#input {
+			border-top: 1px solid gray;
+		}
+
+		.contents {
+			padding: 5px;
+		}
+
+		#input input[type='text'] {
+			font-size: 1em;
+			border: 1px solid;
+			height: 30px;
+			width: 80%;
+		}
+
+		.list {
+			margin: 0;
+			padding: 0;
+			list-style:none;
+		}
+
+
+		
+	</style>
+</head>
+
+<body>	
+	<div id="app">
+		<div id="react"></div>
+		<div id="input">
+			<div class="contents">
+				<form name="chat-input">
+					<input name="message" type="text">
+					<input type="submit">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="./handlebars.js"></script>
+	<script src="./chat.js"></script>
+	<script>
+		var wsUrl = 'ws://' + window.location.hostname + ':{{port}}';
+	</script>
+	<script src="./client.js"></script>
+	<script src="./layout.js"></script>
+</body>
+
+</html>

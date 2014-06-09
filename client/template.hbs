@@ -1,0 +1,20 @@
+<div id="users">
+	<div class="contents">
+		<h3>Online</h3>
+		<ul class="list">
+			{{#each users}}
+			<li>{{this}}</li>
+			{{/each}}
+		</ul>
+	</div>
+</div>
+
+<div id="messages">
+	<div class="contents">
+		<ul class="list">
+			{{#messages}}
+			<li>{{name}}: {{message}}</li>
+			{{/messages}}
+		</ul>
+	</div>
+</div>

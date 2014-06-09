@@ -3,9 +3,9 @@ var helpchat = require('..');
 var express = require('express'),
 	app = express();
 
-app.use(helpchat());
+app.use('/chat', helpchat());
 
-app.get('/', function(req, res) {
+app.get(function(req, res) {
 	res.send('im a page');
 })
 

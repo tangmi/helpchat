@@ -29,7 +29,8 @@
     "express-session": "^1.2.1",
     "cookie-parser": "^1.1.0",
     "ws": "^0.4.31",
-    "express": "^4.4.1"
+    "express": "^4.4.1",
+    "handlebars": "^2.0.0-alpha.4"
   },
   "devDependencies": {
     "srun": "latest"
