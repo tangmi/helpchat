@@ -18,7 +18,7 @@
 			console.log('WebSocket Error ' + error);
 		};
 
-		var maxMessages = 25;
+		var maxMessages = 1000;
 		this._messages = [];
 		this._users = [];
 
